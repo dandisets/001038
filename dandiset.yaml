@@ -7,9 +7,24 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach: []
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: analytical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 192102961
+  numberOfFiles: 5
+  numberOfSubjects: 5
   schemaKey: AssetsSummary
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ProcessingModule
 citation: Azcorra, Maite; Gaertner, Zachary; Davidson, Connor; He, Qianzi; Kim, Hailey;
   Nagappan, Shivathmihai; Hayes, Cooper K.; Ramakrishnan, Charu; Fenno, Lief; Kim,
   Yoon Seok; Deisseroth, Karl; Longnecker, Richard; Awatramani, Rajeshwar; Dombeck,
@@ -148,17 +163,4 @@ schemaVersion: 0.6.7
 studyTarget: []
 url: https://dandiarchive.org/dandiset/001038/draft
 version: draft
-wasGeneratedBy:
-- description: Metadata (contributor, relatedResource) was enhanced with data from
-    DOI https://doi.org/10.1038/s41593-023-01401-9 by DANDI cli
-  endDate: '2024-05-24 16:01:18.508740+02:00'
-  id: urn:uuid:6dedc847-88af-48f3-8039-55b16fcae840
-  name: Metadata extraction from DOI
-  schemaKey: Activity
-  startDate: '2024-05-24 15:59:44.632187+02:00'
-  wasAssociatedWith:
-  - identifier: RRID:SCR_019009
-    name: DANDI Command Line Interface
-    schemaKey: Software
-    url: https://github.com/dandi/dandi-cli
-    version: 0.61.2
+wasGeneratedBy: []
