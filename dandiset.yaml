@@ -2,7 +2,13 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001038
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.7/context.json
-about: []
+about:
+- identifier: http://purl.obolibrary.org/obo/UBERON_0001965
+  name: substantia nigra pars compacta
+  schemaKey: Anatomy
+- identifier: http://purl.obolibrary.org/obo/UBERON_0035999
+  name: dopaminergic cell groups
+  schemaKey: Anatomy
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -15,9 +21,9 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 192102961
-  numberOfFiles: 5
-  numberOfSubjects: 5
+  numberOfBytes: 17839762881
+  numberOfFiles: 1205
+  numberOfSubjects: 102
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -28,8 +34,8 @@ assetsSummary:
 citation: Azcorra, Maite; Gaertner, Zachary; Davidson, Connor; He, Qianzi; Kim, Hailey;
   Nagappan, Shivathmihai; Hayes, Cooper K.; Ramakrishnan, Charu; Fenno, Lief; Kim,
   Yoon Seok; Deisseroth, Karl; Longnecker, Richard; Awatramani, Rajeshwar; Dombeck,
-  Daniel A. (2024) Dual Fiber Photometry of Calcium Transients in Striatal Dopaminergic
-  Axons in Head-Fixed Mice (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001038/draft
+  Daniel A. (2024) Unique functional responses differentially map onto genetic subtypes
+  of dopamine neurons (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001038/draft
 contributor:
 - affiliation: []
   identifier: 0000-0002-2919-3825
@@ -125,6 +131,47 @@ contributor:
   - dcite:Author
   - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: ASAP-020600
+  identifier: https://ror.org/03arq3225
+  includeInCitation: false
+  name: Michael J. Fox Foundation
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: R01MH110556
+  identifier: https://ror.org/01cwqze88
+  includeInCitation: false
+  name: National Institutes of Health
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: ' 1R01NS119690-01'
+  identifier: https://ror.org/01s5ya894
+  includeInCitation: false
+  name: National Institute of Neurological Disorders and Stroke
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: P50 DA044121-01A1
+  includeInCitation: false
+  name: National Institute on Drug Abuse
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 5T32GM008152-34
+  identifier: https://ror.org/04q48ey07
+  includeInCitation: false
+  name: National Institute of General Medical Sciences
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: CA060553
+  identifier: https://ror.org/040gcmg81
+  includeInCitation: false
+  name: National Cancer Institute
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2024-05-24T13:54:10.941834+00:00'
 description: Dopamine neurons are characterized by their response to unexpected rewards,
   but they also fire during movement and aversive stimuli. Dopamine neuron diversity
@@ -142,21 +189,50 @@ description: Dopamine neurons are characterized by their response to unexpected 
 ethicsApproval: []
 id: DANDI:001038/draft
 identifier: DANDI:001038
-keywords: []
+keywords:
+- Fiber photometry
+- GCaMP6f
+- Dopamine
+- 'substantia nigra pars compacta '
+- striatum
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001038/versions/draft/assets/
-name: Dual Fiber Photometry of Calcium Transients in Striatal Dopaminergic Axons in
-  Head-Fixed Mice
-protocol: []
+name: Unique functional responses differentially map onto genetic subtypes of dopamine
+  neurons
+protocol:
+- https://www.protocols.io/view/acute-striatal-or-midbrain-fiber-photometry-in-hea-4r3l27yj4g1y/v1
+- https://www.protocols.io/view/midbrain-viral-injections-for-striatal-fiber-photo-5qpvor8zxv4o/v1
 relatedResource:
 - identifier: https://doi.org/10.1038/s41593-023-01401-9
   name: Unique functional responses differentially map onto genetic subtypes of dopamine
     neurons
   relation: dcite:IsDescribedBy
+  repository: Nature Neuroscience
+  resourceType: dcite:JournalArticle
   schemaKey: Resource
   url: https://doi.org/https://doi.org/10.1038/s41593-023-01401-9
+- name: Azcorra2023
+  relation: dcite:IsSupplementedBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/DombeckLab/Azcorra2023/
+- identifier: https://doi.org/10.5281/zenodo.7871634
+  name: Azcorra2023 - Raw fiber photometry recordings
+  relation: dcite:IsDerivedFrom
+  repository: Zenodo
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://zenodo.org/records/7871634
+- identifier: https://doi.org/10.5281/zenodo.7871982
+  name: Azcorra2023 - Fiber photometry recordings (pre-processed to get DF/F)
+  relation: dcite:IsDerivedFrom
+  repository: Zenodo
+  resourceType: dcite:Dataset
+  schemaKey: Resource
+  url: https://zenodo.org/records/7871982
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
