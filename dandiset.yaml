@@ -21,8 +21,8 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 22391087481
-  numberOfFiles: 1235
+  numberOfBytes: 22444337440
+  numberOfFiles: 1238
   numberOfSubjects: 105
   schemaKey: AssetsSummary
   species:
@@ -233,6 +233,12 @@ relatedResource:
   resourceType: dcite:Dataset
   schemaKey: Resource
   url: https://zenodo.org/records/7871982
+- name: dombeck-lab-to-nwb
+  relation: dcite:IsCompiledBy
+  repository: GitHub
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/catalystneuro/dombeck-lab-to-nwb
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
