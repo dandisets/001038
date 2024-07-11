@@ -173,6 +173,7 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2024-05-24T13:54:10.941834+00:00'
+datePublished: '2024-11-11T17:19:19.113592+00:00'
 description: Dopamine neurons are characterized by their response to unexpected rewards,
   but they also fire during movement and aversive stimuli. Dopamine neuron diversity
   has been observed based on molecular expression profiles; however, whether different
@@ -204,6 +205,18 @@ name: Unique functional responses differentially map onto genetic subtypes of do
 protocol:
 - https://www.protocols.io/view/acute-striatal-or-midbrain-fiber-photometry-in-hea-4r3l27yj4g1y/v1
 - https://www.protocols.io/view/midbrain-viral-injections-for-striatal-fiber-photo-5qpvor8zxv4o/v1
+publishedBy:
+  endDate: '2024-11-11T17:19:19.113592+00:00'
+  id: urn:uuid:f8902eba-d36c-4590-89b7-5fb41b4b659e
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2024-11-11T17:19:19.113592+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:ce12d58c-e232-4568-82b9-c7db8b29a5af
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: https://doi.org/10.1038/s41593-023-01401-9
   name: Unique functional responses differentially map onto genetic subtypes of dopamine
