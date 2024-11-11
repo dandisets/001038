@@ -21,8 +21,8 @@ assetsSummary:
   measurementTechnique:
   - name: analytical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 22690710105
-  numberOfFiles: 1234
+  numberOfBytes: 22753138491
+  numberOfFiles: 1238
   numberOfSubjects: 105
   schemaKey: AssetsSummary
   species:
@@ -35,7 +35,7 @@ citation: Azcorra, Maite; Gaertner, Zachary; Davidson, Connor; He, Qianzi; Kim, 
   Nagappan, Shivathmihai; Hayes, Cooper K.; Ramakrishnan, Charu; Fenno, Lief; Kim,
   Yoon Seok; Deisseroth, Karl; Longnecker, Richard; Awatramani, Rajeshwar; Dombeck,
   Daniel A. (2024) Unique functional responses differentially map onto genetic subtypes
-  of dopamine neurons (Version draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001038/draft
+  of dopamine neurons (Version 0.241111.1719) [Data set]. DANDI archive. https://doi.org/10.48324/dandi.001038/0.241111.1719
 contributor:
 - affiliation: []
   identifier: 0000-0002-2919-3825
@@ -187,8 +187,9 @@ description: Dopamine neurons are characterized by their response to unexpected 
   establish a connection between functional and genetic dopamine neuron subtypes and
   demonstrate that molecular expression patterns can serve as a common framework to
   dissect dopaminergic functions.
+doi: 10.48324/dandi.001038/0.241111.1719
 ethicsApproval: []
-id: DANDI:001038/draft
+id: DANDI:001038/0.241111.1719
 identifier: DANDI:001038
 keywords:
 - Fiber photometry
@@ -199,7 +200,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001038/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001038/0.241111.1719/assets.yaml
 name: Unique functional responses differentially map onto genetic subtypes of dopamine
   neurons
 protocol:
@@ -256,6 +257,6 @@ repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.7
 studyTarget: []
-url: https://dandiarchive.org/dandiset/001038/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001038/0.241111.1719
+version: 0.241111.1719
 wasGeneratedBy: []
