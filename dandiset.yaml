@@ -228,6 +228,15 @@ contributor:
   roleName:
   - dcite:Funder
   schemaKey: Organization
+- affiliation:
+  - identifier: https://ror.org/01d74sk53
+    name: CatalystNeuro
+    schemaKey: Affiliation
+  includeInCitation: false
+  name: Weigl, Szonja
+  roleName:
+  - dcite:DataCurator
+  schemaKey: Person
 dateCreated: '2024-05-24T13:54:10.941834+00:00'
 description: Dopamine neurons are characterized by their response to unexpected rewards,
   but they also fire during movement and aversive stimuli. Dopamine neuron diversity
